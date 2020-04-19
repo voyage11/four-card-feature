@@ -12,6 +12,14 @@ h2 {
   color: #57586C;
 }
 
+img {
+  float: right;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
 .header-text {
   color: #AAA9AE;
   width: 100%;
@@ -34,10 +42,6 @@ h2 {
   color: #AAA9AE;
 }
 
-img {
-  float: right;
-}
-
 .supervisor {
   border-top: 4px solid #41D1CF;
   margin-top: 20px;
@@ -56,7 +60,7 @@ img {
 
 .calculator {
   border-top: 4px solid #549CF0;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -80,22 +84,25 @@ img {
 }
 
 .attribution a {
+  color: #3A4C98;
   color: hsl(228, 45%, 44%);
 }
-
 
 @media (min-width: 576px) {
   .header-text {
     width: 500px;
   }
+
   .supervisor {
     margin-top: 100px;
     margin-bottom: 0;
   }
+
   .calculator {
     margin-top: 100px;
     margin-bottom: 0;
   }
+
   .offset-1-5 {
     margin-left: 13%;
   }
